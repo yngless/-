@@ -47,6 +47,6 @@ CREATE TABLE car_services (
 
 INSERT INTO car_services (car_service_id, car_id, service_id)
 VALUES
-    ('1', '1', '1'), -- Toyota Camry выбрал услугу "Сезонная замена шин"
-    ('2', '2', '2'), -- Honda Accord выбрал услугу "Балансировка колес"
-    ('3', '2', '3'); -- Honda Accord выбрал услугу "Ремонт проколов"
+    ('1', '1', '1'), 
+    ('2', '2', '2'), 
+    ('3', '2', '3'); 

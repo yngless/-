@@ -1,0 +1,4 @@
+docker build –t postgresql_montage . -сборка Docker образа
+docker run -d -p 5432:5432 --name my-shinomontazhka-container postgresql_montage - запуск контейнера
+pip install flask sqlalchemy psycopg2 - установка необходимых библиотек
+python f.py - запуск микросервиса
